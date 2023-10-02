@@ -39,6 +39,7 @@ The working directory when the command was run was /home/lecture1.
 I got the output now displaying ash: cd: Hello.java: Not a directory. This is an error. The output is an error because cd is a command to change into a directory, not a file.
 
 Command 2: ls
+
 1st. ls
    
 ![Image](ls1.png)
@@ -61,6 +62,7 @@ The working directory when the command was /home/lecture1.
 The output I got was Hello.java. This is because it lists the file name of the file Hello.java. This is not an error.
 
 Command 3: cat
+
 1st. cat
    
 ![Image](cat1.png)
