@@ -1,4 +1,6 @@
-Lab Report 1
+# Lab Report 1
+
+## Instructions
 
 1. Share an example of using the command with no arguments.
 2. Share an exmaple of using the command with a path to a directory as an argument.
@@ -10,7 +12,7 @@ What the working directory was when the command was run
 A sentence or two explaining why you got that output (e.g. what was in the filesystem, what it meant to have no arguments).
 Indicate whether the output is an error or not, and if it’s an error, explain why it’s an error.
 
-Command 1: cd
+## Command 1: cd
 1. cd
 ![Image](cd1.jpg)
 The working directory when the command was run was /home/lecture1.
@@ -41,7 +43,7 @@ The
 3. ls Hello.java
 ![Image](ls3.jpg)
 The working directory when the command was /home/lecture1.
-The output I got was Hello.java.
+The output I got was Hello.java. This is because it lists the file name of the fiel Hello.java.
 
 Command 3: cat
 1. cat
