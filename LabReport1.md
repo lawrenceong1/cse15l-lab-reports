@@ -70,12 +70,19 @@ Command 3: cat
 The working directory when the command was /home/lecture1.
 The output I got was a blank line. This is an error since the cat command should read data from the file and gives its content as output, but instead it yields a blank line. This is an error because there is no argument given to the cat command.
 
+After running the cat command, and then inputting text, the termainal reads the inputted text and then writes them back out as an output. For example, if I input the letter a, the terminal will then output a again. So, it will look like this
+```
+[user@sahara ~]$ cat
+a
+a
+```
+
 2nd. cat messages
    
 ![Image](cat2.png)
 
 The working directory when the command was /home/lecture1.
-The output I got was cat: messages: Is a directory. I got this output since it the cat command reads files, but it detects that messages is a directory. This is working as intended, not an error.
+The output I got was cat: messages: Is a directory. I got this output since it the cat command reads files, but it detects that messages is a directory. This is an error, because the cat command needs to take in a file, not a directory for the argument.
 
 3rd. cat messages/en-us.txt
 ![Image](cat3.png)
