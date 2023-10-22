@@ -24,7 +24,7 @@ class Handler implements URLHandler {
             message.append(messageCount + ". " + s + "\n");
             return message.toString();
         } else {
-            return "404 Not Found";
+            return "0.";
         }
     }
 }
