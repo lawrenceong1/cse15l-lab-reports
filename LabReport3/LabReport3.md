@@ -38,12 +38,26 @@ public void testReversed() {
 ### The bug, as the before-and-after code change required to fix it (as two code blocks in Markdown):
 The for loop body needs to assign the ```newArray``` with values from the old array using the index ```arr.length - i - 1``` to be in reverse order. The old code only assigned the old array to the new array values, and the new array values only had 0, so the new array values did not change.
 Also, the return statement should return ```newArray``` since it should return the new array and not the old array, since we are creating a new array.
-The corrected code:
+
+The incorrect code:
 ```
+  static int[] reversed(int[] arr) {
+    int[] newArray = new int[arr.length];
+    for(int i = 0; i < arr.length; i += 1) {
+      arr[i] = newArray[arr.length - i - 1];
+    }
+    return arr;
+  }
+```
+
+The correct code:
+```
+ static int[] reversed(int[] arr) {
+    int[] newArray = new int[arr.length];
+    for(int i = 0; i < arr.length; i += 1) {
       newArray[i] = arr[arr.length - i - 1];
     }
     return newArray;
-  }
 ```
 
 ## Part 2 - Researching Commands
