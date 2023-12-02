@@ -59,7 +59,8 @@ Grade: 5/5. All tests passed.
 ```
 
 ## Setup information:
-The file & directory structure needed
+The file & directory structure needed:
+
 ```
 ├── list-examples-grader
 │   ├── grading-area
