@@ -72,7 +72,8 @@ The file & directory structure needed
 │   ├── TestListExamples.java
 
 ```
-The contents of each file before fixing the bug
+The contents of each file before fixing the bug:
+
 ```grade.sh``` contents:
 
 ```
